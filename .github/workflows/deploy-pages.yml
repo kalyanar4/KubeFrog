@@ -26,10 +26,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          # Automatically enable GitHub Pages when the site is not yet configured.
-          # This prevents "Get Pages site failed / Not Found" on first deployment.
-          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
