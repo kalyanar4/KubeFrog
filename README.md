@@ -1,26 +1,27 @@
 # KubeFrog
 
-KubeFrog is now framed as a **UI/UX-forward developer showcase** instead of a personal portfolio profile.
+KubeFrog is now a multi-page **design engineering platform** built with Next.js.
 
-It highlights:
-- product-style storytelling
-- custom typography and atmospheric visuals
-- motion-led interactions
-- responsive layout craftsmanship
-- lightweight vanilla HTML, CSS, and JavaScript implementation
+It combines:
+- a cinematic homepage with layered motion and depth
+- real project case-study pages
+- a lab section for interactive product experiments
+- a stronger conversion path for studio-style work
+- GitHub Pages-ready static export deployment
 
 ## Run locally
 
 ```bash
-python -m http.server 8080
+npm install
+npm run dev
 ```
 
-Open `http://localhost:8080`.
+Open [http://localhost:3000](http://localhost:3000).
 
-## Deployment
+## Build for production
 
-This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml`.
+```bash
+npm run build
+```
 
-After pushing to GitHub and enabling **Pages -> GitHub Actions**, the site will publish to:
-
-`https://<your-github-username>.github.io/KubeFrog/`
+The production build exports static files to `out/`, which is compatible with GitHub Pages.
